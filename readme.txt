@@ -1,8 +1,8 @@
 this is git  
 
-ssh-keygen 创建公钥
+创建公钥 ssh-keygen 
 
-cat  ~/.ssh/id_rsa.pub  查看公钥
+查看公钥 cat  ~/.ssh/id_rsa.pub  
 
 https://github.com   settings    SSH and GPG keys   new sshKey
 
@@ -27,9 +27,7 @@ git push - u origin master
 
 项目clone   git clone  url 
 
- 本地添加ssh信任      ssh -T git@github.com     ssh -T git@gitee.com
-   
-
+ 类似于清理  删除  .git / index.lock文件
 
 
 
