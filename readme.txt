@@ -16,6 +16,21 @@ https://github.com   settings    SSH and GPG keys   new sshKey
 
 提交到远程 git push      更新  git pull 
 
+获取远程仓库和本地同步合并 （如果远程仓库不为空 必须做这一步，否则后面提交会失败） git pull --rebase origin maseter
+
+把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。
+git push - u origin master
+
+查看在你上次提交之后是否有修改 git status 
+
+执行 git diff 来查看执行 git status 的结果的详细信息
+
+项目clone   git clone  url 
+
+
+
+
+
 
 
  
