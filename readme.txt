@@ -27,6 +27,10 @@ git push - u origin master
 
 项目clone   git clone  url 
 
+ 本地添加ssh信任      ssh -T git@github.com     ssh -T git@gitee.com
+   
+
+
 
 
 
