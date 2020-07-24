@@ -1,32 +1,33 @@
 this is git  
 
-´´½¨¹«Ô¿ ssh-keygen 
+åˆ›å»ºå…¬é’¥ ssh-keygen 
 
-²é¿´¹«Ô¿ cat  ~/.ssh/id_rsa.pub  
+æŸ¥çœ‹å…¬é’¥ cat  ~/.ssh/id_rsa.pub  
 
-ÉèÖÃssh ¹«Ô¿    1. ´ò¿ªhttps://github.com   settings    SSH and GPG keys   new sshKey    2.https://gitee.com/profile/sshkeys
-±¾µØÏîÄ¿µ½Ô¶³Ì²Ö¿â  git init
+è®¾ç½®ssh å…¬é’¥    1. æ‰“å¼€https://github.com   settings    SSH and GPG keys   new sshKey    2.https://gitee.com/profile/sshkeys
 
-¹ØÁªµ½Ô¶³Ì²Ö¿â   git remoyte add origin    Èç:  git remote add origin https://github.com/mas0918/gittest.git
+æœ¬åœ°é¡¹ç›®åˆ°è¿œç¨‹ä»“åº“  git init
 
-Ìí¼Ó°æ±¾¿â  git add .
+å…³è”åˆ°è¿œç¨‹ä»“åº“   git remoyte add origin    å¦‚:  git remote add origin https://github.com/mas0918/gittest.git
 
-Ìá½»ÎÄ¼ş  git commit -m ¡°conntent¡±
+æ·»åŠ ç‰ˆæœ¬åº“  git add .
 
-Ìá½»µ½Ô¶³Ì git push      ¸üĞÂ  git pull 
+æäº¤æ–‡ä»¶  git commit -m â€œconntentâ€
 
-»ñÈ¡Ô¶³Ì²Ö¿âºÍ±¾µØÍ¬²½ºÏ²¢ £¨Èç¹ûÔ¶³Ì²Ö¿â²»Îª¿Õ ±ØĞë×öÕâÒ»²½£¬·ñÔòºóÃæÌá½»»áÊ§°Ü£© git pull --rebase origin maseter
+æäº¤åˆ°è¿œç¨‹ git push      æ›´æ–°  git pull 
 
-°Ñ±¾µØ¿âµÄÄÚÈİÍÆËÍµ½Ô¶³Ì£¬Ê¹ÓÃ git pushÃüÁî£¬Êµ¼ÊÉÏÊÇ°Ñµ±Ç°·ÖÖ§masterÍÆËÍµ½Ô¶³Ì¡£Ö´ĞĞ´ËÃüÁîºó»áÒªÇóÊäÈëÓÃ»§Ãû¡¢ÃÜÂë£¬ÑéÖ¤Í¨¹ıºó¼´¿ªÊ¼ÉÏ´«¡£
+è·å–è¿œç¨‹ä»“åº“å’Œæœ¬åœ°åŒæ­¥åˆå¹¶ ï¼ˆå¦‚æœè¿œç¨‹ä»“åº“ä¸ä¸ºç©º å¿…é¡»åšè¿™ä¸€æ­¥ï¼Œå¦åˆ™åé¢æäº¤ä¼šå¤±è´¥ï¼‰ git pull --rebase origin maseter
+
+æŠŠæœ¬åœ°åº“çš„å†…å®¹æ¨é€åˆ°è¿œç¨‹ï¼Œä½¿ç”¨ git pushå‘½ä»¤ï¼Œå®é™…ä¸Šæ˜¯æŠŠå½“å‰åˆ†æ”¯masteræ¨é€åˆ°è¿œç¨‹ã€‚æ‰§è¡Œæ­¤å‘½ä»¤åä¼šè¦æ±‚è¾“å…¥ç”¨æˆ·åã€å¯†ç ï¼ŒéªŒè¯é€šè¿‡åå³å¼€å§‹ä¸Šä¼ ã€‚
 git push - u origin master
 
-²é¿´ÔÚÄãÉÏ´ÎÌá½»Ö®ºóÊÇ·ñÓĞĞŞ¸Ä git status 
+æŸ¥çœ‹åœ¨ä½ ä¸Šæ¬¡æäº¤ä¹‹åæ˜¯å¦æœ‰ä¿®æ”¹ git status 
 
-Ö´ĞĞ git diff À´²é¿´Ö´ĞĞ git status µÄ½á¹ûµÄÏêÏ¸ĞÅÏ¢
+æ‰§è¡Œ git diff æ¥æŸ¥çœ‹æ‰§è¡Œ git status çš„ç»“æœçš„è¯¦ç»†ä¿¡æ¯
 
-ÏîÄ¿clone   git clone  url 
+é¡¹ç›®clone   git clone  url 
 
- ÀàËÆÓÚÇåÀí  É¾³ı  .git / index.lockÎÄ¼ş
+ ç±»ä¼¼äºæ¸…ç†  åˆ é™¤  .git / index.lockæ–‡ä»¶
 
 
 
