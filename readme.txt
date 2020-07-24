@@ -4,8 +4,7 @@ this is git
 
 查看公钥 cat  ~/.ssh/id_rsa.pub  
 
-https://github.com   settings    SSH and GPG keys   new sshKey
-
+设置ssh 公钥    1. 打开https://github.com   settings    SSH and GPG keys   new sshKey    2.https://gitee.com/profile/sshkeys
 本地项目到远程仓库  git init
 
 关联到远程仓库   git remoyte add origin    如:  git remote add origin https://github.com/mas0918/gittest.git
