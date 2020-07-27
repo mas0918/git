@@ -10,12 +10,21 @@
 
 关联到远程仓库   git remote add origin    如:  git remote add origin https://github.com/mas0918/gittest.git
 
+手动拉取远程仓库更新的信息 git fecth -- 
 
+查看分支 git branch 
 
-手动拉取远程仓库更新的信息
-  git fecth -- 
-git checkout  分支名   -- 切换到他的分支
+切换到他的分支 git checkout  分支名
 
+创建本地分支 git branch 分支名
+
+创建+切换分支 git branch -b 分支名
+
+推送分支到github  git push origin 分支名
+
+删除本地分支 git branch -d 分支名
+
+删除github远程分支 git push origin :分支名
 
 添加版本库  git add .
 
@@ -35,6 +44,9 @@ git push - u origin master
 项目clone   git clone  url 
 
  类似于清理  删除  .git / index.lock文件
+
+删除保存在本地的git账户 git credential-manager uninstall
+
 
 
 
