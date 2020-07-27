@@ -1,4 +1,4 @@
-this is git  
+﻿this is git  
 
 创建公钥 ssh-keygen 
 
@@ -8,7 +8,14 @@ this is git
 
 本地项目到远程仓库  git init
 
-关联到远程仓库   git remoyte add origin    如:  git remote add origin https://github.com/mas0918/gittest.git
+关联到远程仓库   git remote add origin    如:  git remote add origin https://github.com/mas0918/gittest.git
+
+
+
+手动拉取远程仓库更新的信息
+  git fecth -- 
+git checkout  分支名   -- 切换到他的分支
+
 
 添加版本库  git add .
 
