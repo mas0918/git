@@ -30,7 +30,9 @@
 
 提交文件  git commit -m “conntent”
 
-提交到远程 git push      更新  git pull 
+提交到远程 git push     
+
+更新  git pull 
 
 获取远程仓库和本地同步合并 （如果远程仓库不为空 必须做这一步，否则后面提交会失败） git pull --rebase origin maseter
 
